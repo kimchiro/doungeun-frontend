@@ -1,0 +1,30 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "next", "next/core-web-vitals"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "off",
+        "no-undef": "off",
+        "prefer-const": "off",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "no-unused-vars": "off",
+        "no-alert": "off"
+      },
+      "env": {
+        "browser": true
+      }
+      
+    
+    
+  }
+  

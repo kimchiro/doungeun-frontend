@@ -1,4 +1,5 @@
 import { MyEmail, MyEmailInput } from "../../../styles/01-02-emotion";
+import Image from 'next/image';
 
 export default function EmotionPage() {
   return (
@@ -10,7 +11,7 @@ export default function EmotionPage() {
       <MyEmailInput type="text" />
       <MyEmailInput type="text" />
       <button>클릭하세요!</button>
-      <img src="/next.svg" />
+      <Image src="/next.svg" alt="Next.js logo" />
     </div>
   );
 }
