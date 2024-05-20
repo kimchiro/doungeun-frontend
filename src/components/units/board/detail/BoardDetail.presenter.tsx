@@ -1,5 +1,5 @@
 import * as S from "./BoardDetail.styles";
-import { getDate } from "../../../../../src/commons/libraries/utils";
+import { getDate } from "../../../../../src/components/commons/libraries/utils";
 import type { IBoardDetailUIProps } from "./BoardDetail.types";
 import { Tooltip } from "antd";
 
