@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>this의 이해</title>
+</head>
+<body>
+    <script>
+        class ClassCounterPage {
+            const = 10
+
+            onClickCounterUp = () => {
+                this.count += 1
+                console.log(this.count)
+            }
+
+            render(){
+               const button = document.createElement('button')
+               button.count = 100;
+               button.innerHTML = "카운터 올리기"
+               button.addEventListener('click', this.ClickCounterUp)
+               document.body.appendChild(button)
+            }
+            }
+
+            window.onload = () => {
+               const counter = new ClassCounterPage()
+               counter.render()
+            }
+        
+    </script>
+    
+</body>
+</html>

@@ -27,7 +27,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/section16/16-03-inputs-refactoring/01-before.js"  ],
   "exclude": [
     "node_modules"
   ]
